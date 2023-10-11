@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Break out</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+       
+        <div class="left-column">
+            <canvas id="canvas1" width="730" height="560" style="border: 10px solid #c8f4f8; animation: neon-border 1.5s infinite;"></canvas>
+        
+<style>
+    @keyframes neon-border {
+        0% {
+            border-color: #c8f4f8;
+        }
+        50% {
+            border-color: #7b99a7; /* Transition color */
+        }
+        100% {
+            border-color: #c8f4f8;
+        }
+    }
+</style>
+        </div>
+        <div class="right-column">
+
+            
+            <img id="gameImage" src="MicrosoftTeams-image.png" alt="Image Description" width="450">
+
+            <br/><br/>
+            <form id="nameForm">
+                
+                <input type="text" id="username" placeholder="Enter the username" required>
+                <br/><br/>
+                <button type="submit">Start Game</button>
+            </form>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
